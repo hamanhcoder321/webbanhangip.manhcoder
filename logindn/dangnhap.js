@@ -9,7 +9,7 @@ document.getElementById("registerForm").addEventListener("submit", function(even
         document.getElementById("message").innerHTML = "Đăng Nhập thành công!";
         document.getElementById("message").style.display = "block";
         setTimeout(function() {
-            window.location.href = "../main.html";
+            window.location.href = "../index.html";
         }, 1000);
     } else {
         document.getElementById("message").innerHTML = "Vui lòng điền đầy đủ thông tin!";

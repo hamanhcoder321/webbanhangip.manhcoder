@@ -10,7 +10,7 @@ document.getElementById("Form").addEventListener("submit", function(event) {
         document.getElementById("message").innerHTML = "Đăng ký thành công!";
         document.getElementById("message").style.display = "block";
         setTimeout(function() {
-            window.location.href = "../loginđangnhap/dangnhap.html";
+            window.location.href = "../logindn/dangnhap.html";
         }, 1000);
     } else {
         document.getElementById("message").innerHTML = "Vui lòng điền đầy đủ thông tin!";
